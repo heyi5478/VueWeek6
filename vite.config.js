@@ -13,7 +13,7 @@ const DRIVE_LETTER_REGEX = /^[a-z]:/i;
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/heyi5478/VueWeek6/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/VueWeek6/' : '/',
   plugins: [
     vue(),
     eslintPlugin({
